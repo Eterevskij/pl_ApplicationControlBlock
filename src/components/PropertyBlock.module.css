@@ -1,0 +1,47 @@
+.iconWrapper {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F4F4F4;
+    position: relative;
+    margin-right: 12px;
+}
+
+.iconWrapper svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #BCBEC0;
+    padding: 8px;
+}
+
+.subtitle {
+    color: #7a7a7a;
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 4px;
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+.linkWrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2B2B2B;
+}
+
+.link {
+    font-size: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+}

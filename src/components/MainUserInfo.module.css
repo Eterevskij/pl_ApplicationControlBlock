@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.photoWrapper {
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+}
+
+.photoWrapper img {
+    border-radius: 8px;
+}
+
+.role {
+    font-weight: 500;
+    color: #7a7a7a;
+    margin-bottom: 2px;
+}
+
+.name {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.photoPlug {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #7A7A7A;
+}
+
+.photoPlug.primary {
+    background: #AF4ED1;
+}
+
+.photoPlug__text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
